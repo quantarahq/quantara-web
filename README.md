@@ -1,5 +1,8 @@
 # quantara-web
 
+[![CI](https://github.com/quantarahq/quantara-web/actions/workflows/ci.yml/badge.svg)](https://github.com/quantarahq/quantara-web/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 The developer-facing frontend for **Quantara** — an open-source developer infrastructure
 platform for the Soroban smart contract ecosystem. This is the landing page and dashboard
 that talks to [quantarahq/quantara-core](https://github.com/quantarahq/quantara-core)'s
