@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CreateProjectForm } from "@/components/dashboard/create-project-form";
 import { ProjectsList } from "@/components/dashboard/projects-list";
 import { DeployPanel } from "@/components/dashboard/deploy-panel";
+import { DeploymentsList } from "@/components/dashboard/deployments-list";
 import { ContractsList } from "@/components/dashboard/contracts-list";
 import type { Project } from "@/types/project";
 
@@ -47,6 +48,15 @@ export function DashboardContent() {
         </CardHeader>
         <CardContent>
           <DeployPanel selectedProject={selectedProject} />
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Deployment history</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <DeploymentsList selectedProject={selectedProject} />
         </CardContent>
       </Card>
 
