@@ -12,11 +12,7 @@ export function SiteHeader() {
 
         <nav className="flex items-center gap-2">
           <Button variant="ghost" asChild>
-            <a
-              href="https://github.com/quantarahq"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/quantarahq" target="_blank" rel="noreferrer">
               GitHub
               <ExternalLink className="size-4" />
             </a>

@@ -38,14 +38,8 @@ export function CreateProjectForm() {
     <form onSubmit={onSubmit} className="flex flex-col gap-4 sm:flex-row sm:items-end">
       <div className="flex-1 space-y-1.5">
         <Label htmlFor="project-name">Project name</Label>
-        <Input
-          id="project-name"
-          placeholder="example-contract"
-          {...register("name")}
-        />
-        {errors.name && (
-          <p className="text-sm text-destructive">{errors.name.message}</p>
-        )}
+        <Input id="project-name" placeholder="example-contract" {...register("name")} />
+        {errors.name && <p className="text-sm text-destructive">{errors.name.message}</p>}
       </div>
 
       <div className="flex-1 space-y-1.5">

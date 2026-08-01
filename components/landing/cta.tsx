@@ -9,8 +9,8 @@ export function Cta() {
           Ready to build on Soroban?
         </h2>
         <p className="max-w-xl text-muted-foreground">
-          Create a project, run a deployment, and see it show up in the contract
-          registry — the whole workflow in one place.
+          Create a project, run a deployment, and see it show up in the contract registry
+          — the whole workflow in one place.
         </p>
         <Button size="lg" asChild>
           <Link href="/dashboard">Start Building</Link>

@@ -10,8 +10,8 @@ export function Hero() {
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
         Quantara brings modern developer tooling — project management, deployment
-        workflows, and contract inspection — to Soroban smart contract development,
-        so building on Stellar feels as smooth as building anywhere else.
+        workflows, and contract inspection — to Soroban smart contract development, so
+        building on Stellar feels as smooth as building anywhere else.
       </p>
       <div className="mt-10 flex items-center justify-center gap-4">
         <Button size="lg" asChild>

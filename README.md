@@ -24,15 +24,15 @@ Soroban Contract (quantara-core/contracts/deployment-registry)
 
 ## Tech stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js (App Router) |
-| Language | TypeScript |
-| Styling | Tailwind CSS |
-| UI components | shadcn/ui + Radix UI |
-| Data fetching | TanStack Query |
+| Layer              | Technology            |
+| ------------------ | --------------------- |
+| Framework          | Next.js (App Router)  |
+| Language           | TypeScript            |
+| Styling            | Tailwind CSS          |
+| UI components      | shadcn/ui + Radix UI  |
+| Data fetching      | TanStack Query        |
 | Forms & validation | React Hook Form + Zod |
-| Icons | Lucide React |
+| Icons              | Lucide React          |
 
 ## Repository layout
 
