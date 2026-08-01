@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function SiteHeader() {
@@ -17,8 +17,8 @@ export function SiteHeader() {
               target="_blank"
               rel="noreferrer"
             >
-              <Github className="size-4" />
               GitHub
+              <ExternalLink className="size-4" />
             </a>
           </Button>
           <Button asChild>
