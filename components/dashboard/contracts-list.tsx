@@ -10,14 +10,11 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { useContracts } from "@/hooks/useContracts";
+import { truncateAddress } from "@/lib/format";
 import type { Project } from "@/types/project";
 
 interface ContractsListProps {
   selectedProject: Project | undefined;
-}
-
-function truncateAddress(address: string) {
-  return `${address.slice(0, 8)}…${address.slice(-6)}`;
 }
 
 export function ContractsList({ selectedProject }: ContractsListProps) {
