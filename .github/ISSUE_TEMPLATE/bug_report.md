@@ -9,6 +9,7 @@ labels: frontend
 A clear description of what's wrong.
 
 **Where**
+
 - [ ] Landing page (`/`)
 - [ ] Dashboard (`/dashboard`)
 - [ ] API client (`services/`) / hooks (`hooks/`)
@@ -20,6 +21,7 @@ Steps to reproduce, including whether `quantara-core` was running locally.
 What you expected to happen instead.
 
 **Environment**
+
 - Browser + version:
 - Node version:
 - `NEXT_PUBLIC_API_URL` value you're using:
