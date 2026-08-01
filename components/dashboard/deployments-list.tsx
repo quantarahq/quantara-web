@@ -55,7 +55,9 @@ export function DeploymentsList({ selectedProject }: DeploymentsListProps) {
             <TableCell className="font-mono text-sm">{deployment.deploymentId}</TableCell>
             <TableCell>{deployment.contractName}</TableCell>
             <TableCell>
-              <Badge variant={deployment.status === "SUCCESS" ? "default" : "destructive"}>
+              <Badge
+                variant={deployment.status === "SUCCESS" ? "default" : "destructive"}
+              >
                 {deployment.status}
               </Badge>
             </TableCell>
