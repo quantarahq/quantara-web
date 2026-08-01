@@ -18,11 +18,11 @@ landing page and dashboard: everything a developer sees and clicks, talking to
 
 Part of the Quantara project:
 
-| Repo | What it is |
-|---|---|
-| [quantara-core](https://github.com/quantarahq/quantara-core) | Backend API + Soroban contract that this dashboard talks to |
-| **quantara-web** (this repo) | Next.js dashboard |
-| [quantara-toolkit](https://github.com/quantarahq/quantara-toolkit) | Placeholder for a future CLI and runtime |
+| Repo                                                               | What it is                                                  |
+| ------------------------------------------------------------------ | ----------------------------------------------------------- |
+| [quantara-core](https://github.com/quantarahq/quantara-core)       | Backend API + Soroban contract that this dashboard talks to |
+| **quantara-web** (this repo)                                       | Next.js dashboard                                           |
+| [quantara-toolkit](https://github.com/quantarahq/quantara-toolkit) | Placeholder for a future CLI and runtime                    |
 
 ---
 
@@ -75,18 +75,18 @@ directly, no duplicated source of truth.
 
 ## Tech stack
 
-| Layer | Technology | Why |
-|---|---|---|
-| Framework | Next.js 16 (App Router) | file-based routing, React Server Components by default |
-| Language | TypeScript | strict mode; types in `types/` mirror the backend's DTOs |
-| Styling | Tailwind CSS 4 | utility-first, no separate CSS-in-JS runtime |
-| UI components | shadcn/ui + Radix UI | accessible primitives you own the code for, not a black-box library |
-| Data fetching | TanStack Query | caching, invalidation, and loading/error states for every API call |
-| Forms & validation | React Hook Form + Zod | client-side validation that mirrors the backend's `@Valid` rules |
-| Icons | Lucide React | |
-| Testing | Vitest | unit tests for extracted pure functions |
-| Lint/format | ESLint + Prettier | enforced in CI (`format:check`, not just `lint`) |
-| CI/CD | GitHub Actions | lint → format check → test → build, every push/PR |
+| Layer              | Technology              | Why                                                                 |
+| ------------------ | ----------------------- | ------------------------------------------------------------------- |
+| Framework          | Next.js 16 (App Router) | file-based routing, React Server Components by default              |
+| Language           | TypeScript              | strict mode; types in `types/` mirror the backend's DTOs            |
+| Styling            | Tailwind CSS 4          | utility-first, no separate CSS-in-JS runtime                        |
+| UI components      | shadcn/ui + Radix UI    | accessible primitives you own the code for, not a black-box library |
+| Data fetching      | TanStack Query          | caching, invalidation, and loading/error states for every API call  |
+| Forms & validation | React Hook Form + Zod   | client-side validation that mirrors the backend's `@Valid` rules    |
+| Icons              | Lucide React            |                                                                     |
+| Testing            | Vitest                  | unit tests for extracted pure functions                             |
+| Lint/format        | ESLint + Prettier       | enforced in CI (`format:check`, not just `lint`)                    |
+| CI/CD              | GitHub Actions          | lint → format check → test → build, every push/PR                   |
 
 ## Repository layout
 
